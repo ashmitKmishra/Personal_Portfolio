@@ -48,7 +48,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
             >
-            CS Junior with a concentration in AI @ Mississippi State University | Expected Graduation: May 2027
+            CS Senior with a concentration in AI @ Mississippi State University | Expected Graduation: May 2027
             </motion.p>
             
             <motion.div

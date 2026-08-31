@@ -148,7 +148,7 @@ export function About() {
           >
             <ul className="mb-4 space-y-2 list-none p-0 m-0">
               <li className="text-foreground text-lg leading-relaxed">
-                Ex Software Developer Intern @ Bentley Systems
+                Ex Software Developer Intern @ Robinhood Markets, Bentley Systems
               </li>
               <li className="text-foreground text-lg leading-relaxed">
                 iOS Developer @ MSU's Department of CSE
