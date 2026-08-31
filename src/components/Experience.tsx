@@ -2,8 +2,59 @@ import { Timeline } from "@/components/ui/timeline";
 import { motion } from "framer-motion";
 
 const experiences = [
+  {
+    title: "2026",
+    content: (
+      <div>
+        <motion.h3
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-2xl font-bold text-foreground mb-2"
+        >
+          Software Engineer Intern | May 2026 - Aug 2026
+        </motion.h3>
+        <motion.p
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.1 }}
+          className="mb-4 text-base font-semibold text-primary md:text-lg"
+        >
+          Robinhood Markets | Menlo Park, CA
+        </motion.p>
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2 }}
+          className="text-muted-foreground text-sm md:text-base mb-4"
+        >
+          <ul className="space-y-2">
+            <li className="flex items-start">
+              <span className="text-primary mr-2">▹</span>
+              <span>Built client-side system enabling Robinhood’s Cortex assistant to render interactive financial discovery cards
+instead of text-only responses, adding 5 card types across equities, prediction markets, and live sports, while
+reusing production UI components from Search.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-primary mr-2">▹</span>
+              <span>Designed a reusable typed-card architecture that standardized each integration into Model, UI, and 4 shared
+message-routing touchpoints, giving subsequent card integrations a repeatable implementation path.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-primary mr-2">▹</span>
+              <span>Prevented UI divergence between Search and the AI assistant by extracting duplicated layout and mapping
+logic into shared production libraries, validating behavior with pixel-level snapshot tests and mocked
+backend payloads.</span>
+            </li>
+          </ul>
+        </motion.div>
+      </div>
+    ),
+  },
    {
-    title: "2025 - Present",
+    title: "2025 - 2026",
     content: (
       <div>
         <motion.h3
@@ -19,9 +70,9 @@ const experiences = [
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
-          className="text-primary font-semibold mb-4"
+          className="mb-4 text-base font-semibold text-primary md:text-lg"
         >
-          @ Department of CSE | Mississippi State
+          Department of CSE | Mississippi State
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -63,9 +114,9 @@ const experiences = [
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
-          className="text-primary font-semibold mb-4"
+          className="mb-4 text-base font-semibold text-primary md:text-lg"
         >
-          @ Bentley Systems | Huntsville, AL
+          Bentley Systems | Huntsville, AL
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -113,9 +164,9 @@ const experiences = [
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
-          className="text-primary font-semibold mb-4"
+          className="mb-4 text-base font-semibold text-primary md:text-lg"
         >
-          @ Department of Physics & Astronomy | Mississippi State University
+          Department of Physics & Astronomy | Mississippi State University
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -162,9 +213,9 @@ const experiences = [
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
-          className="text-primary font-semibold mb-4"
+          className="mb-4 text-base font-semibold text-primary md:text-lg"
         >
-          @ Department of ECE | Mississippi State University
+          Department of ECE | Mississippi State University
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 10 }}
